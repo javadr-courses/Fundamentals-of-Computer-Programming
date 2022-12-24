@@ -95,7 +95,5 @@ It has a table of content for finding the subjects/code-parts/algorithms easier.
 
 
 
-
-
 </hr>
 
