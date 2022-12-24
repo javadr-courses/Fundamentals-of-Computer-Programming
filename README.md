@@ -87,5 +87,15 @@ It has a table of content for finding the subjects/code-parts/algorithms easier.
 
 
 
+- [14010906](14010906/14010906.ipynb):
+  - Case Studies: Word Play and Lists
+  - Showing how to open a file with `open` file (`open('words.txt')`).
+  - Using `readlines()` method on an opened file object (`_io.TextIOWrapper`) to get all lines of a file at once as a list.
+
+
+
+
+
+
 </hr>
 
