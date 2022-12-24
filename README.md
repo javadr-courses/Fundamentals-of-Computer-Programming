@@ -2,11 +2,9 @@
 A repository containing all jupyter notebook files of csq_ipf22 class.
 It has a table of content for finding the subjects/code-parts/algorithms easier. (And since github is able to render jupyter notebook files on its web page, it's accessible from everywhere).
 
-Note: all of the content here are written by @javadr on one of our classes.
-
 <hr/>
 
-## Table of content
+## Table of contents
 
 - [14010801](14010801/14010801.ipynb):
   - Introducing basic syntax of python (such as defining variables, how to call functions, inputting strings, etc..)
@@ -88,10 +86,6 @@ Note: all of the content here are written by @javadr on one of our classes.
   - Defining `rev_num` function which reverts all digits of a number and returns the result (for example `159 --> 951`).
 
 
+
 </hr>
-
-
-<h2 align="middle"> ©️ All Rights Reserved </h2>
-<h3 align="middle"> csq_ipf22 | <a href=https://github.com/javadr>javadr</a> </h3>
-
 
