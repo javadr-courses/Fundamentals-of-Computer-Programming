@@ -1,47 +1,47 @@
 # Introduction-to-Programming-with-Python
-A repository containing all jupyter notebook files of csq_ipf22 class.
-It has a table of content for finding the subjects/code-parts/algorithms easier. (And since github is able to render jupyter notebook files on its web page, it's accessible from everywhere).
+This repository contains all jupyter notebook files of `CSQ_IPF22` calss.
+You can find the subjects/code-parts/algorithms we've seen in the class easily.
 
 <hr/>
 
 ## Table of contents
 
 - [14010801](14010801/14010801.ipynb):
-  - Introducing basic syntax of python (such as defining variables, how to call functions, inputting strings, etc..)
   - Basic usage of built-in functions (such as `print`, `help`, `input`, `len`)
-  - Introducing `map(int, input().split())` syntax to get multiple input from one line.
-  - Introducing **Syntax error**, **Runtime error** and **Logical error** in programming (and python).
-  - Introducing to usage of single-quotation mark and double-quotation mark.
+  - `map(int, input().split())` syntax to get multiple input from one line
+  - Types of Error: **Syntax error**, **Runtime error** and **Logical error**
+  - single-quotation mark and double-quotation mark -- as a way to show strings in python
 
 - [14010807](14010807/14010807.ipynb):
-  - Introducing usage of `type`, differences between `float`, `int`, `NoneType`, etc...
-  - Introducing usage of `bin`, `oct`, `hex`, etc...
-  - Learning that `int() base must be >= 2 and <= 36, or 0`.
-  - Introducing `math` package (`import math`), basic usage of `math.sin`, `math.pi`, `math.e` and `math.tan`.
-  - Introducing function definitions (how to define a function header, arguments and return value).
-  - Introducing _fruitful function_.
-  - Introducing to syntax `from something import stuff`.
+  - `type` function as well as differences between `float`, `int`, `NoneType`, etc.
+  - `bin`, `oct`, `hex`, etc.
+  - `int() base must be >= 2 and <= 36, or 0`
+  - `math` package (`import math`) -- `math.sin`, `math.pi`, `math.e`, `math.tan`, etc.
+  - Function definition (how to define a function header, arguments and return value)
+  - **fruitful function** versus **void function**
+  - `from something import stuff` vs. `import stuff`
 
 - [14010808](14010808/14010808.ipynb):
-  - Introducing `min`, `max`, `abs` built-in functions.
-  - Introducing `turtle` package and `turtle.Turtle` class.
-  - Introducing `for something in range(number):` syntax (_basic for loop_).
-  - Defining some functions called `n_angle`, `square`, `polygon`, `circle`, `arc` and `rectangle` for turtle
-  - Introducing to how to set speed of the turtle (using `bob.speed` method).
-  - Introducing python `docstring` feature (which is used for documentations (similar to comments)).
-  - Defining a function called `area` which calculates the area using `math.pi`.
-  - Introducing usage of `bob.shape` method (implemented on `turtle.Turtle` class).
+  - `min`, `max`, `abs` built-in functions
+  - `turtle` package and `turtle.Turtle` class
+  - **for loop**: `for something in range(number):` syntax (_basic for loop_)
+  - Function example: `n_angle`, `square`, `polygon`, `circle`, `arc` and `rectangle` for turtle
+  - Set speed of the turtle (using `bob.speed` method)
+  - Python `docstring` feature (used for documentations)
+  - function definitio: `area` which calculates the area using `math.pi`
+  - `bob.shape` method (implemented on `turtle.Turtle` class)
 
 - [14010814](14010814/14010814.ipynb):
-  - Introducing some math operators such as `//`.
-  - Showing that using `==` operator for floats can be dangerous, it's better to compare them like `< 10**-20` or use some tricks similar to this.
-  - Showing that boolean values (`True`/`False`), are just integers (`True == 1`, `False == 0`).
-  - Introducing basic `if...else` syntax.
-  - Introducing new keyword `pass`.
-  - Introducing new logical-boolean operators (such as `and`, `or`, `not`).
-  - Encountering first `RecursionError` in our class (by calling `test` function inside of `test` function without any stop-condition).
-  - Introducing basic `Recursion` (`Recursive function`).
-  - Defining `fact` function as an example of `Recursion` to generate a piece of Factorial series.
+  - Several math operators such as `//`.
+  - Using `==` operator for floats can be dangerous, it's better to compare their approximity like `< 10**-20` or use some tricks similar to this.
+  - Boolean values (`True`/`False`), are just integers (`True == 1`, `False == 0`)
+  _ All numbers are booleans too (zero is `Flase` and all non-zero is `True`)
+  - `if...else`
+  - New keyword `pass`
+  - Logical-boolean operators (`and`, `or`, `not`)
+  - `RecursionError` (by calling `test` function inside of `test` function without any stop-condition)
+  - `Recursion` (`Recursive function`)
+  - `fact` function as an example of `Recursion` to calculate the factorial
 
 - [14010815](14010815/14010815.ipynb):
   - Reminder for previous session, redefining `fact` function (an example of recursive).
