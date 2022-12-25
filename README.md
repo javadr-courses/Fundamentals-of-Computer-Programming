@@ -57,22 +57,41 @@ You can find the subjects/code-parts/algorithms we've seen in the class easily.
   - [**koch snowflake**](https://en.wikipedia.org/wiki/Koch_snowflake): drawing it with `turtle` module; another application of `recursion`
 
 - [14010822](14010822/14010822.ipynb):
+  - `typecasting` `float` to `int`; return just the integeral part of number:
+    - `int(4.7)` --> `4`
+    - `int(-4.7)` --> `-4`
   - Showing that if we convert a `float` value to `int` value, the number after floating-point will be dropped and the result number will become a normal integer.
-  - Introducing `end=` and `sep=` arguments for `print` function.
-  - Showing how to calculate radical 2 using f(x) and f-prime(x) (`fp(x)`).
-  - Introducing `while loop`.
-  - Introducing `mod` operator (`i%2`).
-  - Calculating Factorial series (redefining `fact` function) using `for` and `while` loops.
-  - Calculating Fibonacci series (defining `fib` function) using `for loop`.
-  - Calculating Fibonacci series (defining `fib` function) using `recursive function` (and comparing these two's running time).
+  - Other `print` function arguments: `end` and `sep`
+  - Calculating square root of 2
+    - hypotenuse of an isosceles right-angled triangle with the side of 1
+    - **Newton Raphson Method**
+      - $x_{n+1} = x_n - \frac{f(x)}{f'(x)}$
+  - `while` loop
+  - `mod` operator (`%`).
+  - **Factorial** function:
+    - `for` loop
+    - `while` loops.
+  - **Fibonacci** numbers:
+    - `non-recursive` method: `for` loop
+    - `recursive` function
+    - comparing running time of recursion and non-recursive version
 
 - [14010828](14010828/14010828.ipynb):
-  - Introducing string slices.
-  - Introducing indexes in strings.
-  - Defining `reverse` function which will reverse a given string (using `for loop`).
-  - Defining `find` functions will will find a character/sub-str inside of the string (using loops).
-  - Introducing `in` operator.
-  - Introducing common methods defined in str class (such as `count`, `find`, `index`, `strip`, `lstrip`, `replace`).
+  - string
+    - slicing `[start[:end:[step]]]`
+    - indexing `[index]` or `[-index]`
+  - reversing a string:
+    - `for` loop
+    - slice: `[::-1]`
+  - finding a character/substring in a string:
+    - with the aid of loops
+    - `in` operator
+  - `str` methods:
+    - `count`
+    - `find`
+    - `index`
+    - `strip`, `lstrip`, `rstrip`
+    - `replace`
 
 - [14010905](14010905/14010905.ipynb):
   - Introducing **Algorithms, Flowcharts and Problem solving**.
