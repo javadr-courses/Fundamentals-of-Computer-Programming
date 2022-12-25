@@ -46,12 +46,15 @@ You can find the subjects/code-parts/algorithms we've seen in the class easily.
   - `fact` function as an example of `Recursion` to calculate the factorial
 
 - [14010815](14010815/14010815.ipynb):
-  - Reminder for previous session, redefining `fact` function (an example of recursive).
-  - Showing that `0 * 'string'` results in an empty string with length of 0.
-  - Defining function `test_stack_depth` which has an argument of `depth` (to show maximum depth of stacks).
-  - Re-introducing `map(test, input().split())` syntax (which was previously mentioned in first notebook).
-  - Showing that first argument of `map` can be any function, which will get called on every single thing of its second argument.
-  - Introducing `koch` using `turtle` module.
+  - Reminder for previous session: `fact` function (an example of recursive)
+  - `int * str`: `0 * 'string'` results in an empty string with length of 0
+  - Checking the depth of Recursion Stack: `test_stack_depth`
+  - `map(function, sequence)`
+    - `function` will be called on each elements of the `sequence`
+    - its usage in getting several inputs in just one lines:
+      - `map(int, input().split())`
+      - `map(float, input().split())`
+  - [**koch snowflake**](https://en.wikipedia.org/wiki/Koch_snowflake): drawing it with `turtle` module; another application of `recursion`
 
 - [14010822](14010822/14010822.ipynb):
   - Showing that if we convert a `float` value to `int` value, the number after floating-point will be dropped and the result number will become a normal integer.
