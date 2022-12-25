@@ -33,7 +33,9 @@ You can find the subjects/code-parts/algorithms we've seen in the class easily.
 
 - [14010814](14010814/14010814.ipynb):
   - Several math operators such as `//`.
-  - Using `==` operator for floats can be dangerous, it's better to compare their approximity like `< 10**-20` or use some tricks similar to this.
+  - Comparing float numbers using `==` operator is root of error in some cases
+    - just check their distance, i.e. `abs(x-y)< 10**-20`
+    - `0.1+0.1+0.1 == 0.3` returns `Flase`
   - Boolean values (`True`/`False`), are just integers (`True == 1`, `False == 0`)
   _ All numbers are booleans too (zero is `Flase` and all non-zero is `True`)
   - `if...else`
