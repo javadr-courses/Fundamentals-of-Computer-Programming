@@ -1,12 +1,12 @@
 ## Table of contents
 
-- [14010801](14010801/14010801.ipynb):
+- [14010801](14010801.ipynb):
   - Basic usage of built-in functions (such as `print`, `help`, `input`, `len`)
   - `map(int, input().split())` syntax to get multiple input from one line
   - Types of Error: **Syntax error**, **Runtime error** and **Logical error**
   - single-quotation mark and double-quotation mark -- as a way to show strings in python
 
-- [14010807](14010807/14010807.ipynb):
+- [14010807](14010807.ipynb):
   - `type` function as well as differences between `float`, `int`, `NoneType`, etc.
   - `bin`, `oct`, `hex`, etc.
   - `int() base must be >= 2 and <= 36, or 0`
@@ -15,7 +15,7 @@
   - **fruitful function** versus **void function**
   - `from something import stuff` vs. `import stuff`
 
-- [14010808](14010808/14010808.ipynb):
+- [14010808](14010808.ipynb):
   - `min`, `max`, `abs` built-in functions
   - `turtle` package and `turtle.Turtle` class
   - **for loop**: `for something in range(number):` syntax (_basic for loop_)
@@ -25,7 +25,7 @@
   - function definitio: `area` which calculates the area using `math.pi`
   - `bob.shape` method (implemented on `turtle.Turtle` class)
 
-- [14010814](14010814/14010814.ipynb):
+- [14010814](14010814.ipynb):
   - Several math operators such as `//`.
   - Comparing float numbers using `==` operator is root of error in some cases
     - just check their distance, i.e. `abs(x-y)< 10**-20`
@@ -39,7 +39,7 @@
   - `Recursion` (`Recursive function`)
   - `fact` function as an example of `Recursion` to calculate the factorial
 
-- [14010815](14010815/14010815.ipynb):
+- [14010815](14010815.ipynb):
   - Reminder for previous session: `fact` function (an example of recursive)
   - `int * str`: `0 * 'string'` results in an empty string with length of 0
   - Checking the depth of Recursion Stack: `test_stack_depth`
@@ -50,7 +50,7 @@
       - `map(float, input().split())`
   - [**koch snowflake**](https://en.wikipedia.org/wiki/Koch_snowflake): drawing it with `turtle` module; another application of `recursion`
 
-- [14010822](14010822/14010822.ipynb):
+- [14010822](14010822.ipynb):
   - `typecasting` `float` to `int`; return just the integeral part of number:
     - `int(4.7)` --> `4`
     - `int(-4.7)` --> `-4`
@@ -70,7 +70,7 @@
     - `recursive` function
     - comparing running time of recursion and non-recursive version
 
-- [14010828](14010828/14010828.ipynb):
+- [14010828](14010828.ipynb):
   - string
     - slicing `[start[:end:[step]]]`
     - indexing `[index]` or `[-index]`
@@ -87,7 +87,7 @@
     - `strip`, `lstrip`, `rstrip`
     - `replace`
 
-- [14010905](14010905/14010905.ipynb):
+- [14010905](14010905.ipynb):
   - Introducing **Algorithms, Flowcharts and Problem solving**.
   - Defining `fact` and `neper` functions and comparing their running time.
   - Defining `birthday` function which shows how to use `.format` method on strings to format float types in a string.
@@ -95,7 +95,7 @@
   - Introducing a mathematic formula for `complete` numbers (which is `2**(p-1) * (2**p-1)`, where p is a primary number).
   - Calculating BMI.
 
-- [14010906](14010906/14010906.ipynb):
+- [14010906](14010906.ipynb):
   - Defining a function called `pi` which calculates and returns the `pi` number using a math formula.
   - Reminder to be careful when doing math operations with `float` types (for example `.1+.1+.1 != .3`).
   - Defining `sum_digit` function which calculates and returns summary of all of the digits inside of an integer (for example `134 --> 1+3+4`).
@@ -105,14 +105,14 @@
 
 
 
-- [14010912](14010912/14010912.ipynb):
+- [14010912](14010912.ipynb):
   - Case Studies: Word Play and Lists
   - Showing how to open a file with `open` file (`open('words.txt')`).
   - Using `readlines()` method on an opened file object (`_io.TextIOWrapper`) to get all lines of a file at once as a list.
 
-- [14010913](14010913/14010913.ipynb):
-  - 
-  - 
+- [14010913](14010913.ipynb):
+  -
+  -
 
 
 </hr>
