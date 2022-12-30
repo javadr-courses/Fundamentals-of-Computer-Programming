@@ -88,12 +88,16 @@
     - `replace`
 
 - [14010905](14010905.ipynb):
-  - Introducing **Algorithms, Flowcharts and Problem solving**.
-  - Defining `fact` and `neper` functions and comparing their running time.
-  - Defining `birthday` function which shows how to use `.format` method on strings to format float types in a string.
-  - Defining `is_complete` function and calculating its running time.
-  - Introducing a mathematic formula for `complete` numbers (which is `2**(p-1) * (2**p-1)`, where p is a primary number).
-  - Calculating BMI.
+  - **Algorithms, Flowcharts and Problem solving**.
+  - `factorial` and `neper` functions and their running time
+  - `format` strings:
+    - practical usage in a function (`birthday`)
+    - formatting float types; `f`, `g`
+  - `is_complete` function and its running time
+  - **Perfect numbers**
+    - mathematical formula: `2**(p-1) * (2**p-1)`, where p is a prime number
+  - Body Mass Index (BMI):
+    - A person's weight in kilograms (or pounds) divided by the square of height in meters (or feet)
 
 - [14010906](14010906.ipynb):
   - Defining a function called `pi` which calculates and returns the `pi` number using a math formula.
