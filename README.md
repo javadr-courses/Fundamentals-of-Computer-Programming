@@ -14,3 +14,6 @@ You can find the subjects/code-parts/algorithms we've seen in the class here.
 - [PEP 572 – Assignment Expressions](https://peps.python.org/pep-0572/)
 - [PEP 636 – Structural Pattern Matching: Tutorial](https://peps.python.org/pep-0636/)
 - [PEP 3101 – Advanced String Formatting](https://peps.python.org/pep-3101/)
+
+### Useful Notes
+- [Built-in Functions](https://docs.python.org/3/library/functions.html)
