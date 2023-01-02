@@ -1,6 +1,6 @@
-# Introduction to Programming with Python
+# Fundamentals of Computer Programming 
 
-The repository contains all related files to the **Introduction to Programming with Python** calss.
+The repository contains all related files to the **Fundamentals of Computer Programming with Python** calss.
 You can find the subjects/code-parts/algorithms we've seen in the class here.
 
 ## References
