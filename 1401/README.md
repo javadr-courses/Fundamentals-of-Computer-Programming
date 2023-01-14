@@ -95,24 +95,32 @@
     - formatting float types; `f`, `g`
   - `is_complete` function and its running time
   - **Perfect numbers**
-    - mathematical formula: `2**(p-1) * (2**p-1)`, where p is a prime number
+    - mathematical formula:
+      - `2**(p-1) * (2**p-1)`, where p is a prime number
   - Body Mass Index (BMI):
     - A person's weight in kilograms (or pounds) divided by the square of height in meters (or feet)
 
 - [14010906](14010906.ipynb):
-  - Defining a function called `pi` which calculates and returns the `pi` number using a math formula.
-  - Reminder to be careful when doing math operations with `float` types (for example `.1+.1+.1 != .3`).
-  - Defining `sum_digit` function which calculates and returns summary of all of the digits inside of an integer (for example `134 --> 1+3+4`).
-  - Defining `one_digitizer` function which calls `sum_digit` until the result number has only 1 digit (it's less than 10) using `for loop`.
-  - Defining a function called `mehrpooya` which uses a faster, less-expensive and more efficient algorithm to compute the same thing as `one_digitizer` function.
-  - Defining `rev_num` function which reverts all digits of a number and returns the result (for example `159 --> 951`).
+  - Calculating `pi`:
+    - $\frac{\pi}{4} = 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \cdots$
+  - Curse of `float` numbers:
+    - `0.1+0.1+0.1` is not equal to  `0.3`
+  - Reduction of an n-digit integer to a one-digit integer:
+    - Defining `sum_digit` function: sum up all digits of an integer (e.g. `134 --> 1+3+4=8`).
+    - Defining `one_digitizer` function; calls `sum_digit` until the result number has only 1 digit (=greater than 9)
+    - A more efficient algorithm in comparison to above:
+    >  while n >= 10: n = (n % 10) + (n // 10)
+  - Reversing an integer with the aid of mathematical operation(e.g. `159 --> 951`).
 
 
 
 - [14010912](14010912.ipynb):
   - Case Studies: Word Play and Lists
-  - Showing how to open a file with `open` file (`open('words.txt')`).
-  - Using `readlines()` method on an opened file object (`_io.TextIOWrapper`) to get all lines of a file at once as a list.
+  - Files:
+    - How to open a file with `open` function
+      - `open(file_name)`.
+    - Read all lines of the opened file:
+      - `readlines()` method on an opened file object (`_io.TextIOWrapper`) to get all lines of a file as a list
 
 - [14010913](14010913.ipynb):
   -
