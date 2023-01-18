@@ -18,3 +18,4 @@ You can find the subjects/code-parts/algorithms we've seen in the class here.
 ### Useful Notes
 - [Built-in Functions](https://docs.python.org/3/library/functions.html)
 - [pathlib — Object-oriented filesystem paths](https://docs.python.org/3/library/pathlib.html)
+- [String Formatting](https://realpython.com/python-string-formatting/)
